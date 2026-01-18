@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="bg-black text-white text-sm text-center py-2 top-0 w-full">
+            <span>FREE SHIPPING ON ORDERS OVER $100</span>
+            
+        </div>
+        <!--Nav bar-->
+        <nav class=" top-4 left-2 shadow-md bg-sky-50  w-full ">
+            <div class="flex items-center justify-between">
+               
+            <div class="text-4xl  py-2 flex items-center">
+              <button class="p-2 mx-3 hover:shadow-md block lg:hidden mr-6">☰</button>
+                <h1 class="bg-white p-3 rounded-xl mx-3">LUXE</h1>
+            </div>
+
+                <ul class=" font-semibold text-2xl gap-8 px-2 hidden lg:flex">
+                    <li><a href="" class="hover:text-red-400">Men</a></li>
+                    <li><a href="" class="hover:text-red-400">Women</a></li>
+                    <li><a href="" class="hover:text-red-400">Kids</a></li>
+                    <li><a href="" class="hover:text-red-400">ACCESSORIES</a></li>
+                    <li><a href="" class="hover:text-red-400">Sale</a></li>
+                </ul>
+                <div class="flex items-center gap-4 px-4">
+      <input
+        type="search"
+        placeholder="Search..."
+        class="hidden md:block border rounded-full px-4 py-1"
+      />
+
+      <i class="fa-regular fa-heart text-2xl p-2 px-3 rounded-full hover:shadow-md"></i>
+
+      <button class="relative p-2 rounded-full hover:shadow-md">
+        🛒
+        <span class="absolute -top-1 -right-1 bg-red-600 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">
+          1
+        </span>
+      </button>
+     
+    </div>
+</nav>
+<!--Hero section-->
+<section class="h-screen bg-cover bg-center flex items-center px-6 "
+      style="background-image: url('images/herosection.jpeg')">
+      <div class="text-white max-w-md">
+        <p class="m-3 text-sm tracking-widest">WINTER COLLECTION 2026</p>
+
+        <h1 class="text-5xl md:text-6xl font-semibold mb-4">Elevate Your Style</h1>
+
+        <p class="text-xl opacity-90 mb-6">Discover timeless pieces that define elegance and <br/>sophistication</p>
+<div class="flex  flex-col lg:flex-row gap-3">
+        <button class="relative bg-white text-xl text-black px-6 py-3 mb-3 ">SHOP NOW <span class="absolute transition transform hover:translate-x-2 ">→</span></button>
+        <button class="border-solid border border-4 border-white text-xl text-white px-6 py-3 mb-3 hover:bg-white hover:text-black">VIEW COLLECTION</button>
+        </div>
+      </div>
+      
+    </section>
+    <section class="container mx-auto px-4">
+      <h1 class="flex text-4xl lg:text-5xl font-semibold justify-center m-8">Shop by Category</h1>
+      <p class="flex justify-center text-lg lg:text-2xl mb-6 tracking-wides">Explore our curated collections designed for every style</p>
+    </section>
+    <section class="max-w-7xl mx-auto px-6 py-16">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+
+    <!-- MEN -->
+    <div class="bg-cover h-96 bg-center relative group "
+    style="background-image: url('images/men.jpeg');">
+<div class="absolute inset-0 bg-black/30"></div>
+<div class="absolute text-white bottom-8 left-6">
+  <h2 class="text-2xl font-semibold">Men</h2>
+  <p class="text-sm mt-1">Modern essentials</p>
+  <a href="#" class="inline-flex items-center mt-4 text-sm font-medium group-hover:underline">SHOP NOW <span class="ml-1">→</span></a>
+</div>
+    </div>
+
+    <!-- WOMEN -->
+    <div class="relative h-96 bg-cover bg-center group "
+         style="background-image: url('images/women.jpeg')">
+      <div class="absolute inset-0 bg-black/30"></div>
+      <div class="absolute bottom-8 left-6 text-white">
+        <h2 class="text-2xl font-semibold">Women</h2>
+        <p class="text-sm mt-1">Timeless elegance</p>
+        <a href="#" class="inline-flex items-center mt-4 text-sm font-medium group-hover:underline">
+          SHOP NOW <span class="ml-2">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- KIDS -->
+    <div class="relative h-96 bg-cover bg-center group "
+         style="background-image: url('images/kid.jpeg')">
+      <div class="absolute inset-0 bg-black/30"></div>
+      <div class="absolute bottom-8 left-6 text-white">
+        <h2 class="text-2xl font-semibold">Kids</h2>
+        <p class="text-sm mt-1">Playful comfort</p>
+        <a href="#" class="inline-flex items-center mt-4 text-sm font-medium group-hover:underline">
+          SHOP NOW <span class="ml-2">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ACCESSORIES -->
+    <div class="relative h-96 bg-cover bg-center group"
+         style="background-image: url('images/accesseries.jpeg')">
+      <div class="absolute inset-0 bg-black/30"></div>
+      <div class="absolute bottom-8 left-6 text-white">
+        <h2 class="text-2xl font-semibold">Accessories</h2>
+        <p class="text-sm mt-1">Perfect details</p>
+        <a href="#" class="inline-flex items-center mt-4 text-sm font-medium group-hover:underline">
+          SHOP NOW <span class="ml-2">→</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+ <div class="max-w-7xl mx-auto mt-12">
+  <h2 class="text-5xl flex justify-center m-3">Featured Products</h2>
+            <p class="text-xl flex justify-center m-3 text-gray-400">Handpicked selection of our most loved pieces</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            
+
+      <!-- Product Card -->
+      <div class="group relative">
+        <!-- Image -->
+        <div class="relative overflow-hidden">
+          <img
+            src="images/Minimalist White Shirt.jpeg"
+            class="w-full h-[320px] object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+
+          <!-- Wishlist -->
+          <button class="absolute top-3 right-3 bg-white p-2 rounded-full shadow opacity-0 group-hover:opacity-100 transition">
+            ❤️
+          </button>
+
+          <!-- Quick Add -->
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white text-center py-3 opacity-0 group-hover:opacity-100 transition">
+            QUICK ADD
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="mt-4">
+          <p class="text-xs text-gray-400 uppercase">Shirts</p>
+          <h3 class="font-medium">Minimalist White Shirt</h3>
+          <p class="font-semibold mt-1">$299</p>
+        </div>
+      </div>
+
+      <!-- Product Card with SALE -->
+      <div class="group relative">
+        <div class="relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-orange-500 text-white text-xs px-2 py-1">SALE</span>
+
+          <img
+            src="images/Classic Sneakers.jpeg"
+            class="w-full h-[320px] object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white text-center py-3 opacity-0 group-hover:opacity-100 transition">
+            QUICK ADD
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-xs text-gray-400 uppercase">Footwear</p>
+          <h3 class="font-medium">Classic Sneakers</h3>
+          <p class="mt-1">
+            <span class="font-semibold">$79</span>
+            <span class="text-gray-400 line-through ml-2">$99</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="group relative">
+        <div class="relative overflow-hidden">
+          <img
+            src="images/Leather Handbag.jpeg"
+            class="w-full h-[320px] object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white text-center py-3 opacity-0 group-hover:opacity-100 transition">
+            QUICK ADD
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-xs text-gray-400 uppercase">Accessories</p>
+          <h3 class="font-medium">Leather Handbag</h3>
+          <p class="font-semibold mt-1">$399</p>
+        </div>
+      </div>
+
+      <!-- Product Card with NEW -->
+      <div class="group relative">
+        <div class="relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-black text-white text-xs px-2 py-1">NEW</span>
+
+          <img
+            src="images/women.jpeg"
+            class="w-full h-[320px] object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white text-center py-3 opacity-0 group-hover:opacity-100 transition">
+            QUICK ADD
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-xs text-gray-400 uppercase">T-Shirts</p>
+          <h3 class="font-medium">Casual T-Shirt</h3>
+          <p class="font-semibold mt-1">$49</p>
+        </div>
+      </div>
+      <div class="group relative">
+        <div class="relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-black text-white text-xs px-2 py-1">NEW</span>
+
+          <img
+            src="images/men.jpeg"
+            class="w-full h-[320px] object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white text-center py-3 opacity-0 group-hover:opacity-100 transition">
+            QUICK ADD
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-xs text-gray-400 uppercase">Outerwear</p>
+          <h3 class="font-medium">Tailored Blazer</h3>
+          <p class="font-semibold mt-1">$299</p>
+        </div>
+      </div>
+      <div class="group relative">
+        <div class="relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-black text-white text-xs px-2 py-1">NEW</span>
+
+          <img
+            src="images/accesseries.jpeg"
+            class="w-full h-[320px] object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white text-center py-3 opacity-0 group-hover:opacity-100 transition">
+            QUICK ADD
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-xs text-gray-400 uppercase">Accessories</p>
+          <h3 class="font-medium">Premium Accessories Set</h3>
+          <p class="font-semibold mt-1">$79</p>
+        </div>
+      </div>
+      <div class="group relative">
+        <div class="relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-black text-white text-xs px-2 py-1">NEW</span>
+
+          <img
+            src="images/herosection.jpeg"
+            class="w-full h-[320px] object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white text-center py-3 opacity-0 group-hover:opacity-100 transition">
+            QUICK ADD
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-xs text-gray-400 uppercase">Outerwear</p>
+          <h3 class="font-medium">Designer Coat</h3>
+          <p class="font-semibold mt-1">$339</p>
+        </div>
+      </div>
+ <div class="group relative">
+        <!-- Image -->
+        <div class="relative overflow-hidden">
+          <img
+            src="images/Minimalist White Shirt.jpeg"
+            class="w-full h-[320px] object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+
+          <!-- Wishlist -->
+          <button class="absolute top-3 right-3 bg-white p-2 rounded-full shadow opacity-0 group-hover:opacity-100 transition">
+            ❤️
+          </button>
+
+          <!-- Quick Add -->
+          <div class="absolute bottom-0 left-0 right-0 bg-black text-white text-center py-3 opacity-0 group-hover:opacity-100 transition">
+            QUICK ADD
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="mt-4">
+          <p class="text-xs text-gray-400 uppercase">T-Shirts</p>
+          <h3 class="font-medium">Casual T-Shirt</h3>
+          <p class="font-semibold mt-1">$49</p>
+        </div>
+      </div>     
+      
+    </div>
+    <div class="flex justify-center m-12">
+              <button class="bg-black text-white px-12 py-3 transform transition hover:bg-gray-600">VIEW ALL PROBUCTS</button>
+              </div>
+  </div>
+  <section class="h-screen bg-center bg-cover flex items-center px-6" style="background-image: url('images/women.jpeg');">
+
+  </section>
+
+    </body>
+</html>
